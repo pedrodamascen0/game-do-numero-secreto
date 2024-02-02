@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/kick2.png" sizes="50x20" type="./img/latest.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=YOUR_UNIQUE_KEY"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>secret number game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <div class="informacoes">
+                <div class="main-texto">
+                    <h1>Adivinhe o numero secreto</h1>
+                    <p class="texto__paragrafo">Escolha um número entre 1 a 100</p>
+                </div>
+                <input type="number" min="1" max="10" class="container__input">
+                <div class="container__botoes">
+                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                </div>
+            </div>
+            <img src="./img/kick2.png" alt="kick butovisk" class="imagem-principal" />
+        </div>       
+
+    </div>
+    <footer>
+        <a href="https://github.com/pedrodamascen0/game-do-numero-secreto" target="_blank" rel="noopener noreferrer">
+            <img src="./img/bxl-github.svg" alt="icon GIthub">
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-henrique-damasceno-chagas-5163a8271/">
+            <img src="./img/bxl-linkedin.svg" alt="icon Linkedin" target="_blank" rel="noopener noreferrer">
+            <p>Linkedin</p>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./img/bxl-instagram.svg" alt="icon Instagram">
+            <p>Instagram</p>
+        </a>
+       
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
