@@ -27,8 +27,8 @@ body::before {
 }
 
 .container {
-    width: 80%;
-    height: 70%;
+    width: 1300px;
+    height: flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,6 +162,7 @@ footer img {
     height: 50px;
     display: block;
     margin: 0 auto;
+    display: flex;
 }
 
 footer a {
